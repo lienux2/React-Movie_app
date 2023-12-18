@@ -1,0 +1,166 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "title": "Inception",
+      "genre": "Sci-Fi",
+      "director": "Christopher Nolan",
+      "release_year": 2010,
+      "rating": 8.8,
+      "main_actor": "Leonardo DiCaprio",
+      "comments": [
+        {
+          "text": "Can someone give some comments about this movie? Havent seen it.",
+          "name": "Anna"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "The Shawshank Redemption",
+      "genre": "Drama",
+      "director": "Frank Darabont",
+      "release_year": 1994,
+      "rating": 9.3,
+      "main_actor": "Tim Robbins",
+      "comments": [
+        {
+          "text": "This is really a great movie!",
+          "name": "John"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Pulp Fiction",
+      "genre": "Crime",
+      "director": "Quentin Tarantino",
+      "release_year": 1994,
+      "rating": 8.9,
+      "main_actor": "John Travolta",
+      "comments": [
+        {
+          "text": "Quentin Tarantino at his finest. Kudos!",
+          "name": "Johny"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "The Dark Knight",
+      "genre": "Action",
+      "director": "Christopher Nolan",
+      "release_year": 2008,
+      "rating": 9,
+      "main_actor": "Christian Bale",
+      "comments": [
+        {
+          "text": "I really liked one of the other Batmans better.",
+          "name": "Bunny"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Forrest Gump",
+      "genre": "Drama",
+      "director": "Robert Zemeckis",
+      "release_year": 1994,
+      "rating": 8.8,
+      "main_actor": "Tom Hanks",
+      "comments": [
+        {
+          "text": "Run, Forest, run!",
+          "name": "Emma"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "The Matrix",
+      "genre": "Sci-Fi",
+      "director": "Lana and Lilly Wachowski",
+      "release_year": 1999,
+      "rating": 8.7,
+      "main_actor": "Keanu Reeves",
+      "comments": [
+        {
+          "text": "OMG.. Gonna do everything Matrix style from now on!",
+          "name": "Mary"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Schindler's List",
+      "genre": "Biography",
+      "director": "Steven Spielberg",
+      "release_year": 1993,
+      "rating": 8.9,
+      "main_actor": "Liam Neeson",
+      "comments": [
+        {
+          "text": "Steven Spielberg AND Liam Neeson. That explains everything in my opinion.",
+          "name": "David"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Titanic",
+      "genre": "Romance",
+      "director": "James Cameron",
+      "release_year": 1997,
+      "rating": 7.8,
+      "main_actor": "Leonardo DiCaprio",
+      "comments": [
+        {
+          "text": "Really romantic movie. I like it so much.",
+          "name": "Belle"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "The Godfather",
+      "genre": "Crime",
+      "director": "Francis Ford Coppola",
+      "release_year": 1972,
+      "rating": 9.2,
+      "main_actor": "Marlon Brando",
+      "comments": [
+        {
+          "text": "Is it really worth to watch?",
+          "name": "Killian"
+        },
+        {
+          "text": "Of course it is! Just watch it so I can tell you that I told you so",
+          "name": "Jasmine"
+        },
+        {
+          "text": "Okay. I watched it. Dont why I didnt watch it before! Awesome.",
+          "name": "Killian"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "La La Land",
+      "genre": "Musical",
+      "director": "Damien Chazelle",
+      "release_year": 2016,
+      "rating": 8,
+      "lead_actor": "Ryan Gosling",
+      "comments": [
+        {
+          "text": "Typical dance and sing movie?",
+          "name": "Fin"
+        },
+        {
+          "text": "Well.. Its a musical",
+          "name": "Sarah"
+        }
+      ]
+    }
+  ]
+}
