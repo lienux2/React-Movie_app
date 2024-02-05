@@ -1,31 +1,38 @@
-import { NavLink, Outlet } from "react-router-dom"
+import { NavLink, Outlet } from "react-router-dom";
+import { TvIcon } from "../../components/icon/TvIcon";
 
 export const RootLayout = () => {
-    return (
-        <>
-            <div>
-                <nav className="navbar navbar-expand-md navbar-dark bg-dark">
-                    <div className="container justify-content-center align-items-center">
-                        <ul className="navbar-nav">
-                            <li className="nav-item active">
-                                <NavLink to="/" className="nav-link">Home</NavLink>
-                            </li>
-                            <li className="nav-item active">
-                                <NavLink to="movies" className="nav-link">Movies</NavLink>
-                            </li>
-                            <li className={"nav-item active"}>
-                                <NavLink to="about" className="nav-link">About</NavLink>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
+  return (
+    <>
+      <nav
+        className="navbar navbar-expand-lg bg-body-tertiary sticky-top p-3"
+        data-bs-theme="dark"
+      >
+        <div className="container">
+          <div className="navbar-brand d-flex align-items-center gap-3">
+            <TvIcon />
+            <strong>Movie APP</strong>
+          </div>
 
-            <section>
-                <main>
-                    <Outlet />
-                </main>
-            </section>
-        </>
-    )
-}
+          <div className="navbar-nav">
+            <NavLink to="/" className="nav-link">
+              Home
+            </NavLink>
+            <NavLink to="movies" className="nav-link">
+              Movies
+            </NavLink>
+            <NavLink to="about" className="nav-link">
+              About
+            </NavLink>
+          </div>
+        </div>
+      </nav>
+
+      <section>
+        <main>
+          <Outlet />
+        </main>
+      </section>
+    </>
+  );
+};

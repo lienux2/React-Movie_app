@@ -1,166 +1,456 @@
 {
   "movies": [
     {
-      "id": 1,
+      "id": "1",
       "title": "Inception",
       "genre": "Sci-Fi",
       "director": "Christopher Nolan",
       "release_year": 2010,
       "rating": 8.8,
       "main_actor": "Leonardo DiCaprio",
-      "comments": [
-        {
-          "text": "Can someone give some comments about this movie? Havent seen it.",
-          "name": "Anna"
-        }
-      ]
+      "image": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_.jpg",
+      "imageLarge": "https://static1.srcdn.com/wordpress/wp-content/uploads/2019/12/Inception.jpg",
+      "description": "Dom Cobb is a skilled thief, the absolute best in the dangerous art of extraction, stealing valuable secrets from deep within the subconscious during the dream state, when the mind is at its most vulnerable. Cobb's rare ability has made him a coveted player in this treacherous new world of corporate espionage, but it has also made him an international fugitive and cost him everything he has ever loved. Now Cobb is being offered a chance at redemption. One last job could give him his life back but only if he can accomplish the impossible, inception. Instead of the perfect heist, Cobb and his team of specialists have to pull off the reverse: their task is not to steal an idea, but to plant one. If they succeed, it could be the perfect crime. But no amount of careful planning or expertise can prepare the team for the dangerous enemy that seems to predict their every move. An enemy that only Cobb could have seen coming."
     },
     {
-      "id": 2,
+      "id": "2",
       "title": "The Shawshank Redemption",
       "genre": "Drama",
       "director": "Frank Darabont",
       "release_year": 1994,
       "rating": 9.3,
       "main_actor": "Tim Robbins",
-      "comments": [
-        {
-          "text": "This is really a great movie!",
-          "name": "John"
-        }
-      ]
+      "image": "https://m.media-amazon.com/images/M/MV5BNDE3ODcxYzMtY2YzZC00NmNlLWJiNDMtZDViZWM2MzIxZDYwXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_FMjpg_UX1000_.jpg",
+      "imageLarge": "https://images.squarespace-cdn.com/content/v1/614b7b9bb907e533422f0fa4/1632345033301-EM01O46HVLUJ67DAOQSL/image-asset.jpeg",
+      "description": "Chronicles the experiences of a formerly successful banker as a prisoner in the gloomy jailhouse of Shawshank after being found guilty of a crime he did not commit. The film portrays the man's unique way of dealing with his new, torturous life; along the way he befriends a number of fellow prisoners, most notably a wise long-term inmate named Red."
     },
     {
-      "id": 3,
+      "id": "3",
       "title": "Pulp Fiction",
       "genre": "Crime",
       "director": "Quentin Tarantino",
       "release_year": 1994,
       "rating": 8.9,
       "main_actor": "John Travolta",
-      "comments": [
-        {
-          "text": "Quentin Tarantino at his finest. Kudos!",
-          "name": "Johny"
-        }
-      ]
+      "image": "https://m.media-amazon.com/images/M/MV5BNGNhMDIzZTUtNTBlZi00MTRlLWFjM2ItYzViMjE3YzI5MjljXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_FMjpg_UX1000_.jpg",
+      "imageLarge": "https://static1.srcdn.com/wordpress/wp-content/uploads/2022/07/Split-image-of-Vincent-and-Jules-holding-guns-and-Vincent-and-Mia-dancing-in-Pulp-Fiction.jpg",
+      "description": "Jules Winnfield (Samuel L. Jackson) and Vincent Vega (John Travolta) are two hitmen who are out to retrieve a suitcase stolen from their employer, mob boss Marsellus Wallace (Ving Rhames). Wallace has also asked Vincent to take his wife Mia (Uma Thurman) out a few days later when Wallace himself will be out of town. Butch Coolidge (Bruce Willis) is an aging boxer who is paid by Wallace to lose his fight. The lives of these seemingly unrelated people are woven together comprising of a series of funny, bizarre and uncalled-for incidents."
     },
     {
-      "id": 4,
+      "id": "4",
       "title": "The Dark Knight",
       "genre": "Action",
       "director": "Christopher Nolan",
       "release_year": 2008,
       "rating": 9,
       "main_actor": "Christian Bale",
-      "comments": [
-        {
-          "text": "I really liked one of the other Batmans better.",
-          "name": "Bunny"
-        }
-      ]
+      "image": "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_FMjpg_UX1000_.jpg",
+      "imageLarge": "https://cdn.vox-cdn.com/thumbor/cQ1ss3L_bqXYZ_P88JDcbg_EcgM=/0x0:1920x1080/1200x675/filters:focal(683x122:989x428)/cdn.vox-cdn.com/uploads/chorus_image/image/60394257/darkknight_movie_screencaps.com_9743.0.jpg",
+      "description": "Set within a year after the events of Batman Begins (2005), Batman, Lieutenant James Gordon, and new District Attorney Harvey Dent successfully begin to round up the criminals that plague Gotham City, until a mysterious and sadistic criminal mastermind known only as The Joker appears in Gotham, creating a new wave of chaos. Batman's struggle against The Joker becomes deeply personal, forcing him to confront everything he believes and improve his technology to stop him. A love triangle develops between Bruce Wayne, Dent, and Rachel Dawes."
     },
     {
-      "id": 5,
+      "id": "5",
       "title": "Forrest Gump",
       "genre": "Drama",
       "director": "Robert Zemeckis",
       "release_year": 1994,
       "rating": 8.8,
       "main_actor": "Tom Hanks",
-      "comments": [
-        {
-          "text": "Run, Forest, run!",
-          "name": "Emma"
-        }
-      ]
+      "image": "https://m.media-amazon.com/images/M/MV5BNWIwODRlZTUtY2U3ZS00Yzg1LWJhNzYtMmZiYmEyNmU1NjMzXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_FMjpg_UX1000_.jpg",
+      "imageLarge": "https://pbs.twimg.com/media/DrDZFIyWsAATRaL.jpg",
+      "description": "Forrest Gump is a simple man with a low I.Q. but good intentions. He is running through childhood with his best and only friend Jenny. His 'mama' teaches him the ways of life and leaves him to choose his destiny. Forrest joins the army for service in Vietnam, finding new friends called Dan and Bubba, he wins medals, creates a famous shrimp fishing fleet, inspires people to jog, starts a ping-pong craze, creates the smiley, writes bumper stickers and songs, donates to people and meets the president several times. However, this is all irrelevant to Forrest who can only think of his childhood sweetheart Jenny Curran, who has messed up her life. Although in the end all he wants to prove is that anyone can love anyone."
     },
     {
-      "id": 6,
+      "id": "6",
       "title": "The Matrix",
       "genre": "Sci-Fi",
       "director": "Lana and Lilly Wachowski",
       "release_year": 1999,
       "rating": 8.7,
       "main_actor": "Keanu Reeves",
-      "comments": [
-        {
-          "text": "OMG.. Gonna do everything Matrix style from now on!",
-          "name": "Mary"
-        }
-      ]
+      "image": "https://m.media-amazon.com/images/M/MV5BNzQzOTk3OTAtNDQ0Zi00ZTVkLWI0MTEtMDllZjNkYzNjNTc4L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg",
+      "imageLarge": "https://filmschoolrejects.com/wp-content/uploads/2019/03/2019-03-27-111-alt.jpg",
+      "description": "Thomas A. Anderson is a man living two lives. By day he is an average computer programmer and by night a hacker known as Neo. Neo has always questioned his reality, but the truth is far beyond his imagination. Neo finds himself targeted by the police when he is contacted by Morpheus, a legendary computer hacker branded a terrorist by the government. As a rebel against the machines, Neo must confront the agents: super-powerful computer programs devoted to stopping Neo and the entire human rebellion."
     },
     {
-      "id": 7,
+      "id": "7",
       "title": "Schindler's List",
       "genre": "Biography",
       "director": "Steven Spielberg",
       "release_year": 1993,
       "rating": 8.9,
       "main_actor": "Liam Neeson",
-      "comments": [
-        {
-          "text": "Steven Spielberg AND Liam Neeson. That explains everything in my opinion.",
-          "name": "David"
-        }
-      ]
+      "image": "https://m.media-amazon.com/images/M/MV5BNDE4OTMxMTctNmRhYy00NWE2LTg3YzItYTk3M2UwOTU5Njg4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_FMjpg_UX1000_.jpg",
+      "imageLarge": "https://cdn.theasc.com/Schindlers-List-Fire.jpg",
+      "description": "Oskar Schindler is a vain and greedy German businessman who becomes an unlikely humanitarian amid the barbaric German Nazi reign when he feels compelled to turn his factory into a refuge for Jews. Based on the true story of Oskar Schindler who managed to save about 1100 Jews from being gassed at the Auschwitz concentration camp, it is a testament to the good in all of us."
     },
     {
-      "id": 8,
+      "id": "8",
       "title": "Titanic",
       "genre": "Romance",
       "director": "James Cameron",
       "release_year": 1997,
       "rating": 7.8,
       "main_actor": "Leonardo DiCaprio",
-      "comments": [
-        {
-          "text": "Really romantic movie. I like it so much.",
-          "name": "Belle"
-        }
-      ]
+      "image": "https://m.media-amazon.com/images/M/MV5BMDdmZGU3NDQtY2E5My00ZTliLWIzOTUtMTY4ZGI1YjdiNjk3XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_FMjpg_UX1000_.jpg",
+      "imageLarge": "https://i.redd.it/tf4n81f0nms61.jpg",
+      "description": "84 years later, a 100 year-old woman named Rose DeWitt Bukater tells the story to her granddaughter Lizzy Calvert, Brock Lovett, Lewis Bodine, Bobby Buell and Anatoly Mikailavich on the Keldysh about her life set in April 10th 1912, on a ship called Titanic when young Rose boards the departing ship with the upper-class passengers and her mother, Ruth DeWitt Bukater, and her fiancé, Caledon Hockley. Meanwhile, a drifter and artist named Jack Dawson and his best friend Fabrizio De Rossi win third-class tickets to the ship in a game. And she explains the whole story from departure until the death of Titanic on its first and last voyage April 15th, 1912 at 2:20 in the morning."
     },
     {
-      "id": 9,
+      "id": "9",
       "title": "The Godfather",
       "genre": "Crime",
       "director": "Francis Ford Coppola",
       "release_year": 1972,
       "rating": 9.2,
       "main_actor": "Marlon Brando",
-      "comments": [
-        {
-          "text": "Is it really worth to watch?",
-          "name": "Killian"
-        },
-        {
-          "text": "Of course it is! Just watch it so I can tell you that I told you so",
-          "name": "Jasmine"
-        },
-        {
-          "text": "Okay. I watched it. Dont why I didnt watch it before! Awesome.",
-          "name": "Killian"
-        }
-      ]
+      "image": "https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
+      "imageLarge": "https://cdn.theasc.com/The-Godfather-Featured.jpg",
+      "description": "The Godfather 'Don' Vito Corleone is the head of the Corleone mafia family in New York. He is at the event of his daughter's wedding. Michael, Vito's youngest son and a decorated WW II Marine is also present at the wedding. Michael seems to be uninterested in being a part of the family business. Vito is a powerful man, and is kind to all those who give him respect but is ruthless against those who do not. But when a powerful and treacherous rival wants to sell drugs and needs the Don's influence for the same, Vito refuses to do it. What follows is a clash between Vito's fading old values and the new ways which may cause Michael to do the thing he was most reluctant in doing and wage a mob war against all the other mafia families which could tear the Corleone family apart."
     },
     {
-      "id": 10,
+      "id": "10",
       "title": "La La Land",
       "genre": "Musical",
       "director": "Damien Chazelle",
       "release_year": 2016,
       "rating": 8,
       "lead_actor": "Ryan Gosling",
-      "comments": [
-        {
-          "text": "Typical dance and sing movie?",
-          "name": "Fin"
-        },
-        {
-          "text": "Well.. Its a musical",
-          "name": "Sarah"
-        }
-      ]
+      "image": "https://m.media-amazon.com/images/M/MV5BMzUzNDM2NzM2MV5BMl5BanBnXkFtZTgwNTM3NTg4OTE@._V1_FMjpg_UX1000_.jpg",
+      "imageLarge": "https://static1.srcdn.com/wordpress/wp-content/uploads/2016/12/la-la-land-afi-best-of-2016.jpg",
+      "description": "Aspiring actress serves lattes to movie stars in between auditions and jazz musician Sebastian scrapes by playing cocktail-party gigs in dingy bars. But as success mounts, they are faced with decisions that fray the fragile fabric of their love affair, and the dreams they worked so hard to maintain in each other threaten to rip them apart."
+    },
+    {
+      "id": "11",
+      "title": "12 Angry Men",
+      "genre": "Crime",
+      "director": "Sidney Lumet",
+      "release_year": 1957,
+      "rating": 9,
+      "lead_actor": "Henry Fonda",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/b/b5/12_Angry_Men_%281957_film_poster%29.jpg",
+      "imageLarge": "https://images2.minutemediacdn.com/image/upload/c_fill,w_1440,ar_16:9,f_auto,q_auto,g_auto/shape/cover/sport/angry-primary-5019fa522f63a6409a246fc8fafe4ea6.jpg",
+      "description": "The defense and the prosecution have rested, and the jury is filing into the jury room to decide if a young man is guilty or innocent of murdering his father. What begins as an open-and-shut case of murder soon becomes a detective story that presents a succession of clues creating doubt, and a mini-drama of each of the jurors' prejudices and preconceptions about the trial, the accused, AND each other. Based on the play, all of the action takes place on the stage of the jury room."
+    },
+    {
+      "id": "12",
+      "title": "The Lord of the Rings: The Return of the King",
+      "genre": "Adventure",
+      "director": "Peter Jackson",
+      "release_year": 2003,
+      "rating": 9,
+      "lead_actor": "Elijah Wood",
+      "image": "https://m.media-amazon.com/images/M/MV5BNDgwY2YyNjctZTMxZC00ZTRlLThhN2QtMTAwYjUyODcyZDYxXkEyXkFqcGdeQXVyMTA0MTM5NjI2._V1_FMjpg_UX1000_.jpg",
+      "imageLarge": "https://images.ctfassets.net/m3qyzuwrf176/3wGJGuFvp23syAJlt9kn07/9e10e6ae1b904c2a565d376e0ba7592d/Lord-of-the-Rings-Return-of-the-King.jpg?w=2000",
+      "description": "The final confrontation between the forces of good and evil fighting for control of the future of Middle-earth. Frodo and Sam reach Mordor in their quest to destroy the One Ring, while Aragorn leads the forces of good against Sauron's evil army at the stone city of Minas Tirith."
+    },
+    {
+      "id": "13",
+      "title": "The Good, the Bad and the Ugly",
+      "genre": "Adventure",
+      "director": "Sergio Leone",
+      "release_year": 1966,
+      "rating": 8.8,
+      "lead_actor": "Clint Eastwood",
+      "image": "https://kinolorber.com/media_cache/userFiles/uploads/products/the-good-the-bad-and-the-ugly-no-slipcase/full/B08TQFXFVH.MAIN.jpg",
+      "imageLarge": "https://static1.srcdn.com/wordpress/wp-content/uploads/2020/08/Top-10-Reasons-The-Good-The-Bad-And-The-Ugly-Is-A-Western-Classic-featured-image.jpg",
+      "description": "During the American Civil War, three men set off to find $200,000.00 in buried gold coins. Tuco and Blondie have known each other for some time now, having used the reward on Tuco's head as a way of earning money. They come across a dying man, Bill Carson, who tells them of a treasure in gold coins. By chance, he reveals the name of the cemetery and the name of the grave where the gold is buried. Now rivals, the two men have good reason to keep each other alive. The third man, Angel Eyes, hears of the gold stash from someone he's been hired to kill. All he knows is to look for someone named Bill Carson. The three ultimately meet in a showdown that takes place amid a major battle between Confederate and Union forces."
+    },
+    {
+      "id": "14",
+      "title": "Fight Club",
+      "genre": "Drama",
+      "director": "David Fincher",
+      "release_year": 1999,
+      "rating": 8.8,
+      "lead_actor": "Brad Pitt",
+      "image": "https://m.media-amazon.com/images/M/MV5BMmEzNTkxYjQtZTc0MC00YTVjLTg5ZTEtZWMwOWVlYzY0NWIwXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
+      "imageLarge": "https://media.newyorker.com/photos/5dbafcc91b4a6700085a7a9b/master/pass/Baker-FightClub.jpg",
+      "description": "A nameless first person narrator (Edward Norton) attends support groups in attempt to subdue his emotional state and relieve his insomniac state. When he meets Marla (Helena Bonham Carter), another fake attendee of support groups, his life seems to become a little more bearable. However when he associates himself with Tyler (Brad Pitt) he is dragged into an underground fight club and soap making scheme. Together the two men spiral out of control and engage in competitive rivalry for love and power."
+    },
+    {
+      "id": "15",
+      "title": "GoodFellas",
+      "genre": "Biography",
+      "director": "Martin Scorsese",
+      "release_year": 1990,
+      "rating": 8.7,
+      "lead_actor": "Robert De Niro",
+      "image": "https://m.media-amazon.com/images/M/MV5BY2NkZjEzMDgtN2RjYy00YzM1LWI4ZmQtMjIwYjFjNmI3ZGEwXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
+      "imageLarge": "https://i0.wp.com/metrograph.imgix.net/2022/12/goodfellas.jpeg?ssl=1",
+      "description": "Henry Hill might be a small time gangster, who may have taken part in a robbery with Jimmy Conway and Tommy De Vito, two other gangsters who might have set their sights a bit higher. His two partners could kill off everyone else involved in the robbery, and slowly start to think about climbing up through the hierarchy of the Mob. Henry, however, might be badly affected by his partners' success, but will he consider stooping low enough to bring about the downfall of Jimmy and Tommy?"
+    },
+    {
+      "id": "16",
+      "title": "Interstellar",
+      "genre": "Sci-Fi",
+      "director": "Christopher Nolan",
+      "release_year": 2014,
+      "rating": 8.7,
+      "lead_actor": "Matthew McConaughey",
+      "image": "https://m.media-amazon.com/images/M/MV5BZjdkOTU3MDktN2IxOS00OGEyLWFmMjktY2FiMmZkNWIyODZiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg",
+      "imageLarge": "https://www.theworkprint.com/wp-content/uploads/2014/11/interstellar-new-poster-wallpaper.jpg",
+      "description": "Earth's future has been riddled by disasters, famines, and droughts. There is only one way to ensure mankind's survival: Interstellar travel. A newly discovered wormhole in the far reaches of our solar system allows a team of astronauts to go where no man has gone before, a planet that may have the right environment to sustain human life."
+    },
+    {
+      "id": "17",
+      "title": "The Silence of the Lambs",
+      "genre": "Crime",
+      "director": "Jonathan Demme",
+      "release_year": 1991,
+      "rating": 8.7,
+      "lead_actor": "Jodie Foster",
+      "image": "https://m.media-amazon.com/images/M/MV5BNjNhZTk0ZmEtNjJhMi00YzFlLWE1MmEtYzM1M2ZmMGMwMTU4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg",
+      "imageLarge": "https://images.bauerhosting.com/legacy/media/6026/a037/4ef6/302f/a23a/5c22/sotl-3.jpg?ar=16%3A9&fit=crop&crop=top&auto=format&w=1440&q=80",
+      "description": "F.B.I. trainee Clarice Starling (Jodie Foster) works hard to advance her career, while trying to hide or put behind her West Virginia roots, of which if some knew, would automatically classify her as being backward or white trash. After graduation, she aspires to work in the agency's Behavioral Science Unit under the leadership of Jack Crawford (Scott Glenn). While she is still a trainee, Crawford asks her to question Dr. Hannibal Lecter (Sir Anthony Hopkins), a psychiatrist imprisoned, thus far, for eight years in maximum security isolation for being a serial killer who cannibalized his victims. Clarice is able to figure out the assignment is to pick Lecter's brains to help them solve another serial murder case, that of someone coined by the media as Buffalo Bill (Ted Levine), who has so far killed five victims, all located in the eastern U.S., all young women, who are slightly overweight (especially around the hips), all who were drowned in natural bodies of water, and all who were stripped of large swaths of skin. She also figures that Crawford chose her, as a woman, to be able to trigger some emotional response from Lecter. After speaking to Lecter for the first time, she realizes that everything with him will be a psychological game, with her often having to read between the very cryptic lines he provides. She has to decide how much she will play along, as his request in return for talking to him is to expose herself emotionally to him. The case takes a more dire turn when a sixth victim is discovered, this one from who they are able to retrieve a key piece of evidence, if Lecter is being forthright as to its meaning. A potential seventh victim is high profile Catherine Martin (Brooke Smith), the daughter of Senator Ruth Martin (Diane Baker), which places greater scrutiny on the case as they search for a hopefully still alive Catherine. Who may factor into what happens is Dr. Frederick Chilton (Anthony Heald), the warden at the prison, an opportunist who sees the higher profile with Catherine, meaning a higher profile for himself if he can insert himself successfully into the proceedings."
+    },
+    {
+      "id": "18",
+      "title": "Life Is Beautiful",
+      "genre": "Comedy",
+      "director": "Roberto Benigni",
+      "release_year": 1997,
+      "rating": 8.6,
+      "lead_actor": "Roberto Benigni",
+      "image": "https://m.media-amazon.com/images/M/MV5BYmJmM2Q4NmMtYThmNC00ZjRlLWEyZmItZTIwOTBlZDQ3NTQ1XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_FMjpg_UX1000_.jpg",
+      "imageLarge": "https://cdn.cnn.com/cnnnext/dam/assets/200320084342-life-is-beautiful-super-tease.jpg",
+      "description": "In 1930s Italy, a carefree Jewish waiter-turned-bookseller named Guido starts a fairy tale life by courting and marrying a lovely woman teacher named Dora. Guido and Dora have a son named Joshua and live happily together until the forced deportation of the town's Jewish population in cattle cars. Dora, while not required to be deported, volunteers to leave with her family, and they are all forced to live in a concentration camp. In an attempt to hold his family together and help his son survive the horrors of a concentration camp, Guido imagines that the Holocaust is a game and that the grand prize for winning is a tank."
+    },
+    {
+      "id": "19",
+      "title": "Terminator 2: Judgment Day",
+      "genre": "Action",
+      "director": "James Cameron",
+      "release_year": 1991,
+      "rating": 8.6,
+      "lead_actor": "Arnold Schwarzenegger",
+      "image": "https://m.media-amazon.com/images/M/MV5BMGU2NzRmZjUtOGUxYS00ZjdjLWEwZWItY2NlM2JhNjkxNTFmXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg",
+      "imageLarge": "https://www.intofilm.org/intofilm-production/scaledcropped/1096x548https%3A/s3-eu-west-1.amazonaws.com/images.cdn.filmclub.org/film__4184-terminator-2-judgment-day--hi_res-e492f9d6.jpg/film__4184-terminator-2-judgment-day--hi_res-e492f9d6.jpg",
+      "description": "Over ten years have passed since the first machine called The Terminator tried to kill Sarah Connor and her unborn son, John. The man who will become the future leader of the human resistance against the Machines is now a healthy young boy. However, another Terminator, called the T-1000, is sent back through time by the supercomputer Skynet. This new Terminator is more advanced and more powerful than its predecessor and its mission is to kill John Connor when he's still a child. However, Sarah and John do not have to face the threat of the T-1000 alone. Another Terminator (identical to the same model that tried and failed to kill Sarah Connor in 1984) is also sent back through time to protect them. Now, the battle for tomorrow has begun."
+    },
+    {
+      "id": "20",
+      "title": "Back to the Future",
+      "genre": "Adventure",
+      "director": "Robert Zemeckis",
+      "release_year": 1985,
+      "rating": 8.5,
+      "lead_actor": "Michael J. Fox",
+      "image": "https://m.media-amazon.com/images/M/MV5BZmU0M2Y1OGUtZjIxNi00ZjBkLTg1MjgtOWIyNThiZWIwYjRiXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg",
+      "imageLarge": "https://ew.com/thmb/PegxGThMrH7YnbnFkkNrHYC7Rag=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/back-to-the-future_0-cd25692758ab4541a44f70cff6283c85.jpg",
+      "description": "Marty McFly, a typical American teenager of the Eighties, is accidentally sent back to 1955 in a plutonium-powered DeLorean time machine invented by a slightly mad scientist. During his often hysterical, always amazing trip back in time, Marty must make certain his teenage parents-to-be meet and fall in love - so he can get back to the future."
+    },
+    {
+      "id": "21",
+      "title": "Psycho",
+      "genre": "Horror",
+      "director": "Alfred Hitchcock",
+      "release_year": 1960,
+      "rating": 8.5,
+      "lead_actor": "Anthony Perkins",
+      "image": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p283_p_v8_an.jpg",
+      "imageLarge": "https://variety.com/wp-content/uploads/2017/06/alfred-hitchcock-janet-leigh-psycho.jpg?w=1000",
+      "description": "Phoenix office worker Marion Crane is fed up with the way life has treated her. She has to meet her lover Sam in lunch breaks, and they cannot get married because Sam has to give most of his money away in alimony. One Friday, Marion is trusted to bank forty thousand dollars by her employer. Seeing the opportunity to take the money and start a new life, Marion leaves town and heads towards Sam's California store. Tired after the long drive and caught in a storm, she gets off the main highway and pulls into the Bates Motel. The motel is managed by a quiet young man called Norman who seems to be dominated by his mother."
+    },
+    {
+      "id": "22",
+      "title": "Django Unchained",
+      "genre": "Drama",
+      "director": "Quentin Tarantino",
+      "release_year": 2012,
+      "rating": 8.5,
+      "lead_actor": "Jamie Foxx",
+      "image": "https://m.media-amazon.com/images/M/MV5BMjIyNTQ5NjQ1OV5BMl5BanBnXkFtZTcwODg1MDU4OA@@._V1_.jpg",
+      "imageLarge": "https://media.npr.org/assets/img/2012/12/22/du-ac-005765_lg_wide-0c1a92af3720d7aa2a31806888429b5216d73dcc.jpg",
+      "description": "In 1858, a bounty-hunter named King Schultz seeks out a slave named Django and buys him because he needs him to find some men he is looking for. After finding them, Django wants to find his wife, Broomhilda, who along with him were sold separately by his former owner for trying to escape. Schultz offers to help him if he chooses to stay with him and be his partner. Eventually they learn that she was sold to a plantation in Mississippi. Knowing they can't just go in and say they want her, they come up with a plan so that the owner will welcome them into his home and they can find a way."
+    },
+    {
+      "id": "23",
+      "title": "WALL·E",
+      "genre": "Animation",
+      "director": "Andrew Stanton",
+      "release_year": 2008,
+      "rating": 8.4,
+      "lead_actor": "Ben Burtt",
+      "image": "https://m.media-amazon.com/images/M/MV5BMjExMTg5OTU0NF5BMl5BanBnXkFtZTcwMjMxMzMzMw@@._V1_FMjpg_UX1000_.jpg",
+      "imageLarge": "https://reason.com/wp-content/uploads/2022/10/miniswall-e.jpg",
+      "description": "In a distant, but not so unrealistic, future where mankind has abandoned earth because it has become covered with trash from products sold by the powerful multi-national Buy N Large corporation, WALL-E, a garbage collecting robot has been left to clean up the mess. Mesmerized with trinkets of Earth's history and show tunes, WALL-E is alone on Earth except for a sprightly pet cockroach. One day, EVE, a sleek (and dangerous) reconnaissance robot, is sent to Earth to find proof that life is once again sustainable. WALL-E falls in love with EVE. WALL-E rescues EVE from a dust storm and shows her a living plant he found amongst the rubble. Consistent with her directive, EVE takes the plant and automatically enters a deactivated state except for a blinking green beacon. WALL-E, doesn't understand what has happened to his new friend, but, true to his love, he protects her from wind, rain, and lightning, even as she is unresponsive. One day a massive ship comes to reclaim EVE, but WALL-E, out of love or loneliness, hitches a ride on the outside of the ship to rescue EVE. The ship arrives back at a large space cruise ship, which is carrying all of the humans who evacuated Earth 700 years earlier. The people of Earth ride around this space resort on hovering chairs which give them a constant feed of TV and video chatting. They drink all of their meals through a straw out of laziness and/or bone loss, and are all so fat that they can barely move. When the auto-pilot computer, acting on hastily-given instructions sent many centuries before, tries to prevent the people of Earth from returning by stealing the plant, WALL-E, EVE, the portly captain, and a band of broken robots stage a mutiny."
+    },
+    {
+      "id": "24",
+      "title": "American Beauty",
+      "genre": "Drama",
+      "director": "Sam Mendes",
+      "release_year": 1999,
+      "rating": 8.3,
+      "lead_actor": "Kevin Spacey",
+      "image": "https://m.media-amazon.com/images/M/MV5BNTBmZWJkNjctNDhiNC00MGE2LWEwOTctZTk5OGVhMWMyNmVhXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg",
+      "imageLarge": "https://m.media-amazon.com/images/M/MV5BMTM1NjYyMzExMV5BMl5BanBnXkFtZTcwODEyODY3Mw@@._V1_.jpg",
+      "description": "After his death sometime in his 43rd year, suburbanite Lester Burnham tells of the last few weeks of his life, during which he had no idea of his imminent passing. He is a husband to real estate agent Carolyn Burnham and father to high school student Jane Burnham. Although Lester and Carolyn once loved each other, they now merely tolerate each other. Typical wallflower Jane also hates both her parents; the three suffer individually in silence in their home life. Jane tries to steer clear of both her parents. Carolyn, relatively new to the real estate business, wants to create the persona of success to further her career, aspiring to the professional life of Buddy Kane, the king of the real estate business in their neighborhood. Lester merely walks mindlessly through life, including at his job in advertising. His company is downsizing, and he, like all the other employees, has to justify his position to the newly hired efficiency expert to keep his job. Things change for Lester when he falls in love at first sight with Jane's more experienced classmate, Angela Hayes. Both Janie and Angela can see Lester's sexual infatuation with Angela, who courts such attention from any man as a sign that she is model material, she having once appeared in Seventeen and is a career to which she aspires. Lester's infatuation with Angela gives him a reenergized view on life, where he openly doesn't care anymore what anyone thinks about what he does, anyone except Angela. This infatuation coincides with the Fittses moving in next door: homophobic disciplinarian US Marine Colonel Frank Fitts who rules the house with a military fist (that fist being both figurative and literal), his semi-comatose wife Barbara Fitts, and their bright and quietly subversive 18-year-old son Ricky Fitts, who openly abides by his father's rules while behind the scenes lives by his own quite different perspective. Much like Lester's infatuation, Ricky immediately becomes infatuated with Jane; he considers girls like Angela as ordinary. The entry of Angela and the Fittses into the Burnhams' lives ultimately leads to each of the players confronting what is truly in his or her heart."
+    },
+    {
+      "id": "25",
+      "title": "Toy Story",
+      "genre": "Animation",
+      "director": "John Lasseter",
+      "release_year": 1995,
+      "rating": 8.3,
+      "lead_actor": "Tom Hanks",
+      "image": "https://m.media-amazon.com/images/M/MV5BMDU2ZWJlMjktMTRhMy00ZTA5LWEzNDgtYmNmZTEwZTViZWJkXkEyXkFqcGdeQXVyNDQ2OTk4MzI@._V1_.jpg",
+      "imageLarge": "https://i.insider.com/62ac8327384b540018417944?width=1200&format=jpeg",
+      "description": "A little boy named Andy loves to be in his room, playing with his toys, especially his doll named Woody. But, what do the toys do when Andy is not with them, they come to life. Woody believes that his life (as a toy) is good. However, he must worry about Andy's family moving, and what Woody does not know is about Andy's birthday party. Woody does not realize that Andy's mother gave him an action figure known as Buzz Lightyear, who does not believe that he is a toy, and quickly becomes Andy's new favorite toy. Woody, who is now consumed with jealousy, tries to get rid of Buzz. Then, both Woody and Buzz are now lost. They must find a way to get back to Andy before he moves without them, but they will have to pass through a ruthless toy killer, Sid Phillips."
+    },
+    {
+      "id": "26",
+      "title": "Braveheart",
+      "genre": "Biography",
+      "director": "Mel Gibson",
+      "release_year": 1995,
+      "rating": 8.3,
+      "lead_actor": "Mel Gibson",
+      "image": "https://m.media-amazon.com/images/M/MV5BMzkzMmU0YTYtOWM3My00YzBmLWI0YzctOGYyNTkwMWE5MTJkXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_FMjpg_UX1000_.jpg",
+      "imageLarge": "https://imgix.ranker.com/list_img_v2/14349/2674349/original/braveheart-cast-then-and-now?fit=crop&fm=pjpg&q=80&dpr=2&w=1200&h=720",
+      "description": "William Wallace is a Scottish rebel who leads an uprising against the cruel English ruler Edward the Longshanks, who wishes to inherit the crown of Scotland for himself. When he was a young boy, William Wallace's father and brother, along with many others, lost their lives trying to free Scotland. Once he loses another of his loved ones, William Wallace begins his long quest to make Scotland free once and for all, along with the assistance of Robert the Bruce."
+    },
+    {
+      "id": "27",
+      "title": "Joker",
+      "genre": "Crime",
+      "director": "Todd Phillips",
+      "release_year": 2019,
+      "rating": 8.4,
+      "lead_actor": "Joaquin Phoenix",
+      "image": "https://m.media-amazon.com/images/M/MV5BNGVjNWI4ZGUtNzE0MS00YTJmLWE0ZDctN2ZiYTk2YmI3NTYyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg",
+      "imageLarge": "https://m.media-amazon.com/images/M/MV5BMGQ1ZGZmNTAtM2MyYi00NmZhLTkwYmYtNTNlZDRhMzU2ZTgwXkEyXkFqcGdeQW1yb3NzZXI@._V1_.jpg",
+      "description": "A socially inept clown for hire - Arthur Fleck aspires to be a stand up comedian among his small job working dressed as a clown holding a sign for advertising. He takes care of his mother, Penny Fleck, and as he learns more about his mental illness, he learns more about his past. Dealing with all the negativity and bullying from society, he heads downwards on a spiral, in turn showing how his alter ego, Joker, came to be."
+    },
+    {
+      "id": "28",
+      "title": "The Hunt",
+      "genre": "Drama",
+      "director": "Thomas Vinterberg",
+      "release_year": 2012,
+      "rating": 8.3,
+      "lead_actor": "Mads Mikkelsen",
+      "image": "https://m.media-amazon.com/images/M/MV5BMTg2NDg3ODg4NF5BMl5BanBnXkFtZTcwNzk3NTc3Nw@@._V1_.jpg",
+      "imageLarge": "https://m.media-amazon.com/images/M/MV5BYjUzODFkYmUtMjNkYi00MzEzLTgwMzUtNGY3NTg3M2E1ZmIxXkEyXkFqcGdeQWFybm8@._V1_.jpg",
+      "description": "Lucas is a Kindergarten teacher who takes great care of his students. Unfortunately for him, young Klara has a run-away imagination and concocts a lie about her teacher. Before Lucas is even able to understand the consequences, he has become the outcast of the town. The hunt is on to prove his innocence before it's taken from him for good."
+    }
+  ],
+  "comments": [
+    {
+      "text": "Can someone give some comments about this movie? Havent seen it.",
+      "name": "Anna",
+      "movieId": "1",
+      "id": "d985"
+    },
+    {
+      "text": "This is really a great movie!",
+      "name": "John",
+      "movieId": "2",
+      "id": "f370"
+    },
+    {
+      "text": "Quentin Tarantino at his finest. Kudos!",
+      "name": "Johny",
+      "movieId": "3",
+      "id": "b23e"
+    },
+    {
+      "text": "I really liked one of the other Batmans better.",
+      "name": "Bunny",
+      "movieId": "4",
+      "id": "5020"
+    },
+    {
+      "text": "Typical dance and sing movie?",
+      "name": "Fin",
+      "movieId": "10",
+      "id": "5e2c"
+    },
+    {
+      "text": "Well.. Its a musical",
+      "name": "Sarah",
+      "movieId": "10",
+      "id": "b207"
+    },
+    {
+      "text": "Is it really worth to watch?",
+      "name": "Killian",
+      "movieId": "9",
+      "id": "9c68"
+    },
+    {
+      "text": "Of course it is! Just watch it so I can tell you that I told you so",
+      "name": "Jasmine",
+      "movieId": "9",
+      "id": "6c0f"
+    },
+    {
+      "text": "Okay. I watched it. Dont why I didnt watch it before! Awesome.",
+      "name": "Killian",
+      "movieId": "9",
+      "id": "4cab"
+    },
+    {
+      "text": "Really romantic movie. I like it so much.",
+      "name": "Belle",
+      "movieId": "8",
+      "id": "7b82"
+    },
+    {
+      "text": "Steven Spielberg AND Liam Neeson. That explains everything in my opinion.",
+      "name": "David",
+      "movieId": "7",
+      "id": "1f27"
+    },
+    {
+      "text": "OMG.. Gonna do everything Matrix style from now on!",
+      "name": "Mary",
+      "movieId": "6",
+      "id": "2c61"
+    },
+    {
+      "text": "Run, Forest, run!",
+      "name": "Emma",
+      "movieId": "5",
+      "id": "0a07"
+    },
+    {
+      "id": "c919",
+      "name": "John",
+      "text": "Great movie!!!!",
+      "movieId": "1"
+    },
+    {
+      "id": "dec5",
+      "name": "Crystal",
+      "text": "Totally forgot about this movie! I gonna go and watch it again. Thanks!",
+      "movieId": "1"
+    },
+    {
+      "id": "896a",
+      "name": "Anna Routledge",
+      "text": "Haven`t seen this movie. Added to my list.",
+      "movieId": "2"
+    },
+    {
+      "id": "d9ef",
+      "name": "Keanu Reeves",
+      "text": "Hey! I starred in this.",
+      "movieId": "6"
+    },
+    {
+      "id": "ae0e",
+      "name": "Elizabeth",
+      "text": "OMG! Keanu Reeves!!!",
+      "movieId": "6"
+    },
+    {
+      "id": "5283",
+      "name": "Anthony",
+      "text": "I do like Leo and Kate in this movie.",
+      "movieId": "8"
     }
   ]
 }

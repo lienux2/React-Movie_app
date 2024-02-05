@@ -1,75 +1,46 @@
-import style from './About.module.css'
-import image1 from './images/image1.jpg'
-import image2 from './images/image2.jpg'
-import image3 from './images/image3.jpg'
-import image4 from './images/image4.jpg'
-import image5 from './images/image5.jpg'
-import image6 from './images/image6.jpg'
-import image7 from './images/image7.jpg'
-import image8 from './images/image8.jpg'
-import image9 from './images/image9.jpg'
-
-export const About = () => {
-    return (
-        <>
-            <section>
-                <div className="container">
-                    <div className="row">
-                        <div className="col-12">
-                            <div className={style.heading}>
-                                <h1>About developer of this project</h1>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="row">
-                        <div className="col-12">
-                            <p>Hi. My name is Liene and I am developer of this project.</p>
-                            <p>My journey in programming starting in 12th grade when one of lessons was Programming basics.
-                                I really liked it, but sadly didnt go after that dream. Most certainly you will ask why and I can answer that.
-                                I was unsure about myself and my knowledge so that lead into fear that no school will accept me. I know, I know...
-                                But I did what I did and later went to work regular jobs mostly as customer service consultant.</p>
-                            <p>I have had few jobs between finishing school and this moment but the last 2 years I am unemployed. In february I had chance to study for free as nail care specialist. That is what I did for a while. I did nails. Wanna see results?</p>
-                            <div className="container">
-                                <div className="row my-3">
-                                    <div className="col-4 d-flex justify-content-center">
-                                        <img className={style.image} src={image1} alt="" />
-                                    </div>
-                                    <div className="col-4 d-flex justify-content-center">
-                                        <img className={style.image} src={image2} alt="" />
-                                    </div>
-                                    <div className="col-4 d-flex justify-content-center">
-                                        <img className={style.image} src={image3} alt="" />
-                                    </div>
-                                </div>
-                                <div className="row my-3">
-                                    <div className="col-4 d-flex justify-content-center">
-                                        <img className={style.image} src={image4} alt="" />
-                                    </div>
-                                    <div className="col-4 d-flex justify-content-center">
-                                        <img className={style.image} src={image5} alt="" />
-                                    </div>
-                                    <div className="col-4 d-flex justify-content-center">
-                                        <img className={style.image} src={image6} alt="" />
-                                    </div>
-                                </div>
-                                <div className="row my-3">
-                                    <div className="col-4 d-flex justify-content-center">
-                                        <img className={style.image} src={image7} alt="" />
-                                    </div>
-                                    <div className="col-4 d-flex justify-content-center">
-                                        <img className={style.image} src={image8} alt="" />
-                                    </div>
-                                    <div className="col-4 d-flex justify-content-center">
-                                        <img className={style.image} src={image9} alt="" />
-                                    </div>
-                                </div>
-                            </div>
-                            <p>But then I found Codelex. Thought for a moment and decided to finally go after long lost dream of becoming a programmer. And as much as I do enjoy doing nail care service, that can be as extra what I enjoy doing. 😊</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <hr />
-        </>
-    )
-}
+export const About = () => (
+  <div className="container">
+    <div className="row text-center">
+      <div className="col">
+        <h1 className="m-5">About developer of this project</h1>
+      </div>
+    </div>
+    <div className="row">
+      <div className="col">
+        <p>
+          <span className="fs-3">Hi!</span> My name is Liene and I am developer
+          of this project.
+        </p>
+        <h1 className="fs-2 mb-3">My road so far...</h1>
+        <p>
+          My journey in programming started in 12th grade when one of lessons in
+          school was Programming basics. I don`t remember the name of program we
+          used but I really liked it. Sometimes even finished homework during
+          class. And did some extra tasks at home.
+        </p>
+        <p>
+          I did really enjoy it but didn`t go after that dream. Main reason was
+          that I was very shy back then. I was really unsure about myself and
+          convinced myself that I am not good enough. So life took me in other
+          direction and mainly worked as client consultant.
+        </p>
+        <p>
+          At some points I tried to renew the love for programming with some
+          free courses like in codecademy or some tutorials. But there was
+          always something else that needed to be done.
+        </p>
+        <p>
+          Last two years I am unemployed. I took courses as nail care specialist
+          with the help of Riga municipality project.
+        </p>
+        <p>
+          But then I found Codelex. Thought for a moment and decided to take
+          this chance and finally went after long lost dream of becoming a
+          programmer. With the help of mentor I learned programming and now at
+          every chance I try to learn something new or improve existing
+          knowledge. Take a look at this project for example.
+        </p>
+      </div>
+    </div>
+  </div>
+);
