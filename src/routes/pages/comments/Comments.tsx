@@ -13,7 +13,7 @@ export const Comments = () => {
   const { id } = useParams();
 
   const { data: comments } = useQuery<Comments[]>({
-    queryKey: ['comments'],
+    queryKey: ["comments"],
     queryFn: () => {
       return axios
         .get(`http://localhost:3000/comments?movieId=${id}`)
@@ -26,28 +26,28 @@ export const Comments = () => {
 
   return (
     <>
-    {comments?.length === 0 ? (
-      <div className="container">
+      {comments?.length === 0 ? (
+        <div className="container">
           <div className="row border my-4 mx-5 p-3">
             <div className="col mx-3 d-flex justify-content-center">
               <h1>There is no comments at this time.</h1>
             </div>
           </div>
         </div>
-    ) : (
-      <>
-      {comments?.map(({ text, name }: Comments) => (
-        <div className="container">
-          <div className="row border my-4 mx-5 p-3">
-            <div className="col mx-3">
-              <h1>{name} says:</h1>
-              <p>{text}</p>
+      ) : (
+        <>
+          {comments?.map(({ text, name }: Comments) => (
+            <div className="container">
+              <div className="row border my-4 mx-5 p-3">
+                <div className="col mx-3">
+                  <h1>{name} says:</h1>
+                  <p>{text}</p>
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
-      ))}
-      </>
-    )}
+          ))}
+        </>
+      )}
     </>
   );
 };

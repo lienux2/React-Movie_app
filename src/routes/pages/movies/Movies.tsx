@@ -39,9 +39,8 @@ export const Movies = () => {
       movie.genre == selectedGenre &&
       movie.title.toLowerCase().includes(search.toLowerCase())
   );
-  let allMovies = movies?.filter(
-    (movie) =>
-      movie.title.toLowerCase().includes(search.toLowerCase())
+  let allMovies = movies?.filter((movie) =>
+    movie.title.toLowerCase().includes(search.toLowerCase())
   );
 
   const filteredMovies = () => {

@@ -33,7 +33,7 @@ In [Movies page](http://localhost:5173/movies) movies can be searched by title a
 
 ### Other information
 
-Technologies and libraries used:
+Technologies, libraries and extensions used:
 
 - Typescript
 - Vite
@@ -43,3 +43,4 @@ Technologies and libraries used:
 - Axios
 - Json-server
 - Bootstrap 5
+- Prettier

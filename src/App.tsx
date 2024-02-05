@@ -10,9 +10,9 @@ import "./index.css";
 
 import { About } from "./routes/pages/about/About";
 import { Error } from "./routes/pages/error/Error";
-import { Home } from "./routes/pages/home/Home"; 
-import { Movies } from "./routes/pages/movies/Movies"; 
-import { Movie } from "./routes/pages/movie/Movie"; 
+import { Home } from "./routes/pages/home/Home";
+import { Movies } from "./routes/pages/movies/Movies";
+import { Movie } from "./routes/pages/movie/Movie";
 import { Comments } from "./routes/pages/comments/Comments";
 
 // Layout imports
